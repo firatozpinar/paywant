@@ -1,5 +1,5 @@
 {
-    "name": "firatozpinar/paywant-php-sdk",
+    "name": "firatozpinar/paywant",
     "type": "library",
     "description": "paywant api php client",
     "homepage": "https://www.paywant.com",
