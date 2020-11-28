@@ -1,0 +1,39 @@
+{
+    "name": "firatozpinar/paywant-php-sdk",
+    "type": "library",
+    "description": "paywant api php client",
+    "homepage": "https://www.paywant.com",
+    "keywords": [
+        "payment processing"
+    ],
+    "license": "GNU",
+    "authors": [
+        {
+            "name": "paywant and contributors",
+            "homepage": "https://github.com/firatozpinar/paywant/contributors"
+        }
+    ],
+    "require": {
+        "php": ">=7.0.0",
+        "guzzlehttp/guzzle": "^7.0",
+        "larapack/dd": "^1.1"
+    },
+    "require-dev": {
+        "ext-curl": "*",
+        "phpunit/phpunit": "^8.5.5 || ^9.3.5",
+        "psr/log": "^1.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "FiratOzpinar\\Paywant\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "FiratOzpinar\\Paywant\\Tests\\": "tests/"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    }
+}
